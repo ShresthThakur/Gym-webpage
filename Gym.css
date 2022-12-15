@@ -1,0 +1,139 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #0590E4, #944C73) center center/cover;
+    background-image: url('https://wallpaperaccess.com/full/6999300.png');
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Barlow', sans-serif;
+    height: 98vh;
+}
+
+header {
+    color: #0590E4;
+}
+
+.left {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    display: inline-block;
+
+}
+
+.right {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    display: inline-block;
+}
+
+.middle {
+    display: block;
+    margin: 10px auto;
+    width: 37%;
+    border: 3px solid #4c000d;
+    border-radius: 12px;
+    color: #e1ae5c;
+
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: #dc4b38;
+}
+
+a:hover {
+    color: #dc4b38;
+}
+
+img {
+    height: 50px;
+    width: 150px;
+}
+
+.btn {
+    padding: 15px 35px;
+    border: 1px solid rosybrown;
+    margin: 15px 3px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    border-radius: 9px;
+    background-color: #19223a;
+    cursor: pointer;
+    color: aliceblue;
+
+}
+
+.Forpula {
+    margin: 295px auto;
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.Forpula input {
+    margin: 2px auto;
+    display: inline-block;
+}
+
+.in {
+    display: inline;
+    outline: 2px solid #19223a;
+
+}
+
+.Fill {
+    padding: 10px;
+    border: 3px solid #19223a;
+    width: 400px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.mess {
+    font-family: 'Righteous', cursive;
+    /* text-shadow: 0 0 5px black, 0 0 7px black; */
+    margin-bottom: 10px;
+    background: -webkit-linear-gradient(45deg,  #FBDD49,  #FF8103, #FF1C6A, #E200A3, #9B04DB, #6D1DC6 85%);
+    -webkit-background-clip: text;
+     background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+
+
+}
+
+#Sub {
+    padding: 17px;
+    width: 250px;
+    font-size: 24px;
+}
+
+a:visited {
+    color: #e1ae5c;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
